@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - racer > share > express > connect > debug:
+        patched: '2017-10-02T01:13:06.359Z'
+    - racer > share > express > debug:
+        patched: '2017-10-02T01:13:06.359Z'
+    - racer > share > express > connect > body-parser > debug:
+        patched: '2017-10-02T01:13:06.359Z'
+    - racer > share > express > connect > compression > debug:
+        patched: '2017-10-02T01:13:06.359Z'
+    - racer > share > express > connect > connect-timeout > debug:
+        patched: '2017-10-02T01:13:06.359Z'
+    - racer > share > express > send > debug:
+        patched: '2017-10-02T01:13:06.359Z'
+    - racer > share > express > connect > express-session > debug:
+        patched: '2017-10-02T01:13:06.359Z'
+    - racer > share > express > connect > finalhandler > debug:
+        patched: '2017-10-02T01:13:06.359Z'
+    - racer > share > express > connect > morgan > debug:
+        patched: '2017-10-02T01:13:06.359Z'
+    - racer > share > express > connect > serve-index > debug:
+        patched: '2017-10-02T01:13:06.359Z'
+    - racer > share > express > connect > serve-static > send > debug:
+        patched: '2017-10-02T01:13:06.359Z'
